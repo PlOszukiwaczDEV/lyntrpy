@@ -40,7 +40,6 @@ delete_lynt_headers = {
     'DNT': '1',
     'Alt-Used': 'lyntr.com',
     'Connection': 'keep-alive',
-    # 'Cookie': '_TOKEN__DO_NOT_SHARE=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiI4NDQ5NTMxMTMxNjQ5MDI0In0.Y9c4HEiGFsWyGkYyvIaXRotSBIZZCFBjs-5OuPTN_mE; temp-discord-token=it89S6FB76SwnFG4YV5ZNfFsNaHo8f; cf_clearance=f77ned0v6Y4aCZ1R9Vx9GSOXIG9XpdjFqFRcYFFVzFY-1723023657-1.0.1.1-Ox5DDG6BMn690ZNvssesWh3K7yLbmv8jzEnRytnDLY5wd86k9kx4nRFCrlGdCPeyDZQqEGb4K7xPmrx9gM2rzw',
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
     'Sec-Fetch-Site': 'same-origin',
