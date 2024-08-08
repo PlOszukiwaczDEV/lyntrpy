@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lyrntpy"
+name = "lyntrpy"
 version = "1.0.0"
 description = "A api wrapper for lyntr`s api in python"
 readme = "README.md"
