@@ -1,5 +1,5 @@
-# lyrntpy
- A api wrapper for lyrnt`s api in python
+# lyntrpy
+ A api wrapper for lyntr`s api in python
 
 # How to make the .env file
 In order to create a `.env` file you need 3 cookies:
@@ -7,7 +7,7 @@ In order to create a `.env` file you need 3 cookies:
 - `temp-discord-token`
 - `cf_clearance`
 
-The `_TOKEN_DO_NOT_SHARE` cookie is required to authenticate with the lyrnt api.
+The `_TOKEN_DO_NOT_SHARE` cookie is required to authenticate with the lyntr api.
 
 The `temp-discord-token` cookie is only needed when creating an account (to my knowledge) so it can probaly left empty but i would stil set it.
 
@@ -16,7 +16,7 @@ solution is to manualy copy the cookie from a browser and paste it it (i am work
 
 Now that we know what each cookie does, how to actually get them? (please note the tutorial for getting the cookies is for firefox)
 
-Firstly navigate to [lyrnt](https://lyrnt.com) and press `Control+S+I`, you should be meet with this
+Firstly navigate to [lyntr](https://lyntr.com) and press `Control+S+I`, you should be meet with this
 ![devtools open](readme_images/devtools1.png)
 
 Now navigate to the `Storage` tab
