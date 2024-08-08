@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lyrntpy"
+version = "1.0.0"
+description = "A api wrapper for lyrnt`s api in python"
+readme = "README.md"
+authors = [
+  {
+    name = "PlOszukiwacz", email="ploszukiwacz1@gmail.com"
+  }
+]
+dynamic = ["version"]
+dependencies = [
+  "python-dotenv",
+  "requests"
+]
+requires-python = ">= 3.8"
+
+[tool.setuptools]
+packages = ["lyrntpy"]
+include_package_data = true
