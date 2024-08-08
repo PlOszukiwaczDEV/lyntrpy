@@ -71,3 +71,6 @@ def get_lynt(lyntID : int):
 def get_comments_lynt(lyntID : int):
     r = requests.get(f"https://lyntr.com/api/comments?id={lyntID}", cookies=cookies, headers=utils.headers.get_lynt_headers)
     return r
+def search_lynts(search):
+    r = requests.get(f"https://lyntr.com/api/search?q={search}", cookies=cookies, headers=utils.headers.search_headers)
+    return r

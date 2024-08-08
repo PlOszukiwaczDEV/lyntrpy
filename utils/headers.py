@@ -101,3 +101,19 @@ profile_headers = {
     # Requests doesn't support trailers
     # 'TE': 'trailers',
 }
+search_headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0',
+    'Accept': '*/*',
+    'Accept-Language': 'en-US,en;q=0.5',
+    # 'Accept-Encoding': 'gzip, deflate, br, zstd',
+    'Referer': 'https://lyntr.com/api/search?q=!ai',
+    'DNT': '1',
+    'Connection': 'keep-alive',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-GPC': '1',
+    'Priority': 'u=0',
+    # Requests doesn't support trailers
+    # 'TE': 'trailers',
+}
