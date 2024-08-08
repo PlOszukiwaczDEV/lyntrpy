@@ -1,10 +1,12 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
 
-CF_COOKIE_ON = False # if you want to turn on you need to setup https://github.com/zfcsoftware/cf-clearance-scraper
+load_dotenv()
 
 def get_cf_cookie():
-    if CF_COOKIE_ON:
+    if os.getenv("CF_COOKIE_ENABLED") == "True":
         headers = {
             'Content-Type': 'application/json'
         }

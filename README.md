@@ -7,12 +7,17 @@ In order to create a `.env` file you need 3 cookies:
 - `temp-discord-token`
 - `cf_clearance`
 
+And a varliable:
+- `CF_COOKIE_ENABLED`
+
 The `_TOKEN_DO_NOT_SHARE` cookie is required to authenticate with the lyntr api.
 
 The `temp-discord-token` cookie is only needed when creating an account (to my knowledge) so it can probaly left empty but i would stil set it.
 
 The `cf_clearance` is used to authenticate with cloudflare and use the api and not be blocked. This cookie is known for expirering quickly, for now the 
 solution is to manualy copy the cookie from a browser and paste it it (i am working on an automatic system).
+
+The `CF_COOKIE_ENABLED` is a variable that controls is the cloudflare bypass on. If you want to set it to `True` you need to setup [cf-clearance-scraper](https://github.com/zfcsoftware/cf-clearance-scraper). Please note that this is stil exparamental and the .env stil needs to be updated manualy, but the getting of the cookie is now automatic. (Also this only works with chrome)
 
 Now that we know what each cookie does, how to actually get them? (please note the tutorial for getting the cookies is for firefox)
 
