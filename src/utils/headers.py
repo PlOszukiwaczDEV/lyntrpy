@@ -35,7 +35,7 @@ delete_lynt_headers = {
     'Accept': '*/*',
     'Accept-Language': 'en-US,en;q=0.5',
     # 'Accept-Encoding': 'gzip, deflate, br, zstd',
-    'Referer': 'https://lyntr.com/api/lynt?id=9037266491583488',
+    'Referer': 'https://lyntr.com/api/lynt',
     'Origin': 'https://lyntr.com',
     'DNT': '1',
     'Alt-Used': 'lyntr.com',

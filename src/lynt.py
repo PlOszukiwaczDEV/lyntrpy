@@ -2,6 +2,7 @@ import requests
 import os
 import json
 import utils
+import utils.headers
 
 
 def send_lynt(message: str, repostID: int = None):
